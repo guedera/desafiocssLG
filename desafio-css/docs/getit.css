@@ -47,6 +47,49 @@ body {
   align-content: center;
 }
 
+.card {
+  width: 300px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center ;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+/* Alinha o título do card para o canto superior esquerdo */
+.card-title {
+  align-self: flex-start;
+  text-align: left;
+  width: 100%;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+/* Ajusta o conteúdo do card: fonte um pouco menor e cor cinza escuro */
+.card-content {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  flex: 1;
+  font-size: 1rem;
+  color: #424242;
+  text-align: left;
+  width: 100%;
+  margin: 0;
+}
+
 /* Adiciona estilos para as cores dos cards */
 .card-color-1 {
   background-color: #9de0f5; /* azul claro */
