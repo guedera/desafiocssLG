@@ -28,23 +28,73 @@ body {
 }
 
 .appbar {
+  margin-top: 0.1rem;
+  background-color: #f7d736;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: flex-start;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  
 }
 
 .logo{
-  margin-left: 0.1rem;
-  margin-top: 0.1rem;
-  width: 10%;
-  height: 10%;
+  margin-left: 0.25rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  width: 8%;
+  height: 8%;
 }
 
 .subtitle{
   margin-left: 0.1rem;
   margin-top: 0.1rem;
   align-content: center;
+}
+
+
+.form-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+.form-card-title {
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+}
+
+.form-card textarea {
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  resize: none;
+}
+
+.btn {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.6rem;
+  font-size: 1.2rem;
+  color: solid black;
+  background-color: #f7d736;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .card {
