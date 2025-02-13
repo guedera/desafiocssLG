@@ -72,7 +72,6 @@ body {
   align-self: flex-start;
   text-align: left;
   width: 100%;
-  padding-left: 0.5rem;
   margin: 0;
   font-size: 1.5rem;
 }
@@ -88,8 +87,6 @@ body {
   color: #424242;
   text-align: left;
   width: 100%;
-  padding: 0;
-  padding-left:0.5rem;
   margin: 0;
 }
 
