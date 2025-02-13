@@ -27,6 +27,26 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.appbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.logo{
+  margin-left: 0.1rem;
+  margin-top: 0.1rem;
+  width: 10%;
+  height: 10%;
+}
+
+.subtitle{
+  margin-left: 0.1rem;
+  margin-top: 0.1rem;
+  align-content: center;
+}
+
 /* Adiciona estilos para as cores dos cards */
 .card-color-1 {
   background-color: #9de0f5; /* azul claro */
